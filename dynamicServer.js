@@ -1,4 +1,8 @@
 //use variables to dynamically generate server
+//<!DOCTYPE html> helps browser interpret incoming 
+//byte string is an html document without the need
+//to specify a format type ie text/html or text/plain
+//use variables to dynamically generate server
 const http = require('http');
 const port = 3000;
 
